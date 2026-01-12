@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<link rel="stylesheet" href="/CSS/calci.css">
+<body>
+    <table border="1" align="center" cellpadding="15" >
+        <tr >
+            <td id="display" colspan="4" >
+                
+            </td>
+        </tr>
+        <tr>
+              <tr align="center">
+        <td width="50" height="50" ><button id="+" onclick="num(`+`)">+</button></td>
+        <td width="50" height="50"><button id="-" onclick="num(`-`)">-</button></td>
+        <td width="50" height="50"><button id="*" onclick="num(`*`)">*</button></td>
+        <td width="50" height="50"><button id="/" onclick="num(`/`)">/</button></td>
+    </tr>
+        </tr>
+
+    <tr align="center">
+        <td width="50" height="50" ><button id="1" onclick="num(1)">1</button></td>
+        <td width="50" height="50"><button id="2" onclick="num(2)">2</button></td>
+        <td width="50" height="50"><button id="3" onclick="num(3)">3</button ></td>
+        <td width="50" height="50"><button onclick="clearDisplay()">C</button></td>
+    </tr>
+
+    <tr align="center">
+        <td width="50" height="50"><button id="4" onclick="num(4)">4</button></td>
+        <td width="50" height="50"><button id="5" onclick="num(5)">5</button></td>
+        <td width="50" height="50"><button id="6" onclick="num(6)">6</button></td>
+        <td width="50" height="50"><button onclick="del()">x></button></td>
+    </tr>
+    <tr align="center">
+        <td width="50" height="50"><button id="7" onclick="num(7)">7</button></td>
+        <td width="50" height="50"><button id="8" onclick="num(8)">8</button></td>
+        <td width="50" height="50"><button id="9" onclick="num(9)">9</button></td>
+        <td width="50" height="50"><button id="=" onclick="cali()" >=</button></td>
+    </tr>
+    </table>
+    <script src="/JS/calci.js"></script>
+</body>
+</html>
