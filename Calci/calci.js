@@ -1,26 +1,26 @@
 
 
 
-// function num(value){
-//   document.getElementById("display").innerText += value;
+function num(value){
+  document.getElementById("display").innerText += value;
 
-// }
-// //dis
-// function clearDisplay(){
-//     document.getElementById("display").innerText= "";
-// }
-// function del(){
-//     let dis = document.getElementById("display");
-//     dis.innerText = dis.innerText.slice(0,-1); 
-// }
+}
+//dis
+function clearDisplay(){
+    document.getElementById("display").innerText= "";
+}
+function del(){
+    let dis = document.getElementById("display");
+    dis.innerText = dis.innerText.slice(0,-1); 
+}
 
 
 
-// //with eval 
-// function cali(){
-//     let solu = document.getElementById("display").innerText;
-//     document.getElementById("display").innerText = eval(solu);
-// }
+//with eval 
+function cali(){
+    let solu = document.getElementById("display").innerText;
+    document.getElementById("display").innerText = eval(solu);
+}
 
 
 // function cali(){
@@ -66,8 +66,8 @@
 // console.log(myObj.car);
 // console.log(myObj.add());
 
-const add = function(){
-            console.log(this.car+this.num) 
-} 
+// const add = function(){
+//             console.log(this.car+this.num) 
+// } 
 
-console.log(add());
+// console.log(add());
