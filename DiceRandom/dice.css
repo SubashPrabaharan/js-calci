@@ -1,0 +1,28 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f8;
+            text-align: center;
+            /* padding-top: 50px; */
+        }
+
+        h1 {
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: black;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+       
+
+        
+
+        #op {
+            margin-top: 30px;
+            font-size: 12em;
+            font-weight: bold;
+            color: green;
+        }
